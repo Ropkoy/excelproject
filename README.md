@@ -4,8 +4,8 @@ Project Overview:Cleaned, analyzed, and visualized sales data to identify key tr
 # Workflow
 1. Data Cleaning
 Standardized date formats (sales_date) using DATEVALUE()
-Converted text-based numbers (sales_value, sales_quantity) to numeric with VALUE()
-Handled missing data through
+Confirmed that (sales_value, sales_quantity) were all numeric with VALUE()
+Handled missing data
 Validated data consistency with ISNUMBER(), ISBLANK() checks
 
 2. Key Analysis
@@ -15,6 +15,6 @@ Channel performance
 Salesperson rankings 
 
 3. Dashboard Visualization
-Bar Charts	Compare performance across regions/salespeople	Identified North region as top performer
-Trend Line	Track monthly sales patterns	
-Pie Charts	Show market share distribution	
+Bar Charts to compare performance across regions/salespeople	Identified North region as top performer
+Trend Line to track monthly sales patterns	
+Pie Charts to show market share distribution	
